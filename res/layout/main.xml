@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget_rel1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:qwad="http://schemas.android.com/apk/res/i4napps.theeggs"
+	>
+	
+<AbsoluteLayout android:id="@+id/widget1"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true"
+	>
+	
+	<!-- background -->
+	<ImageView android:id="@+id/background"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="0dp" android:layout_y="0dp" android:src="@drawable/background">
+	</ImageView>
+	
+	<!-- buttons -->
+	<ImageButton android:id="@+id/infoButton"
+		android:layout_width="98dp" android:layout_height="59dp"
+		android:layout_x="0dp" android:layout_y="0dp" android:src="@drawable/btn_info_black"
+		android:background="#0000"
+		>
+	</ImageButton>
+
+	<!-- catcher views -->
+	<!-- catcher left -->
+	<ImageView android:id="@+id/catcherLeft"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="203dp" android:layout_y="144dp" android:src="@drawable/catcher_left">
+	</ImageView>
+	<!-- catcher right -->
+	<ImageView android:id="@+id/catcherRight"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="238dp" android:layout_y="149dp" android:src="@drawable/catcher_right">
+	</ImageView>
+	<!-- catcher ltop -->
+	<ImageView android:id="@+id/catcherLTop"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="181dp" android:layout_y="142dp" android:src="@drawable/catcher_ltop">
+	</ImageView>
+
+	<!-- catcher lbottom -->
+	<ImageView android:id="@+id/catcherLBottom"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="179dp" android:layout_y="178dp" android:src="@drawable/catcher_lbottom">
+	</ImageView>
+
+	<!-- catcher rtop -->
+	<ImageView android:id="@+id/catcherRTop"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="271dp" android:layout_y="149dp" android:src="@drawable/catcher_rtop">
+	</ImageView>
+
+	<!-- catcher rbottom -->
+	<ImageView android:id="@+id/catcherRBottom"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="267dp" android:layout_y="181dp" android:src="@drawable/catcher_rbottom">
+	</ImageView>
+	
+	<!-- catcher helper -->
+	<ImageView android:id="@+id/helper"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="154dp" android:layout_y="84dp" android:src="@drawable/helper">
+	</ImageView>
+	
+	<!-- sound -->
+	<ImageView android:id="@+id/sound"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="198dp" android:layout_y="92dp" 
+		android:src="@drawable/sound">
+	</ImageView>
+	
+	<!-- pause -->
+	<ImageView android:id="@+id/pause"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="227dp" android:layout_y="90dp" android:src="@drawable/pause">
+	</ImageView>	
+
+	<!-- direction buttons -->
+	<ImageButton android:id="@+id/btnLTop"
+		android:layout_width="wrap_content" android:layout_y="168dip"
+		android:layout_x="0dip" android:layout_height="wrap_content"
+		android:src="@drawable/btn_ltop_states"
+		android:background="#0000"
+		>
+	</ImageButton>
+
+	<ImageButton android:id="@+id/btnLBottom"
+		android:layout_width="wrap_content" android:layout_y="244dip"
+		android:layout_x="0dip" android:layout_height="wrap_content"
+		android:src="@drawable/btn_lbottom_states"
+		android:background="#0000"
+		>
+	</ImageButton>
+
+	<ImageButton android:id="@+id/btnRTop"
+		android:layout_width="wrap_content" android:layout_y="168dip"
+		android:layout_x="368dip" android:layout_height="wrap_content"
+		android:src="@drawable/btn_rtop_states"
+		android:background="#0000"
+		>
+	</ImageButton>
+
+	<ImageButton android:id="@+id/btnRBottom"
+		android:layout_width="wrap_content" android:layout_y="244dip"
+		android:layout_x="365dip" android:layout_height="wrap_content"
+		android:src="@drawable/btn_rbottom_states"
+		android:background="#0000"
+		>
+	</ImageButton>
+	
+	<!-- sound, game 1 and 2, stats, pause? -->
+	<ImageButton android:id="@+id/btnSound"
+		android:layout_width="wrap_content"  android:layout_height="wrap_content"
+		android:layout_x="-5dp" android:layout_y="49dp" 
+		android:src="@drawable/btn_sound_states"
+		android:background="#0000"
+		>
+	</ImageButton>
+	<ImageButton android:id="@+id/btnPause"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="-5dp" android:layout_y="88dp" 
+		android:src="@drawable/btn_pause_states"
+		android:background="#0000"
+		>
+	</ImageButton>	
+	<ImageButton android:id="@+id/btnGameI"
+		android:layout_width="wrap_content"  android:layout_height="wrap_content"
+		android:layout_x="376dp" android:layout_y="20dp" 
+		android:src="@drawable/btn_game1_states"
+		android:background="#0000"
+		>
+	</ImageButton>	
+	<ImageButton android:id="@+id/btnGameII"
+		android:layout_width="wrap_content"  android:layout_height="wrap_content"
+		android:layout_x="376dp" android:layout_y="73dp"
+		android:src="@drawable/btn_game2_states"
+		android:background="#0000"
+		>
+	</ImageButton>		
+	<ImageButton android:id="@+id/btnStats"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="376dp" android:layout_y="108dp" 
+		android:src="@drawable/btn_stats_states"
+		android:background="#0000"
+		>
+	</ImageButton>	
+	
+	<!-- Projectiles -->
+	<!-- Trajectory 0 -->
+	<ImageView android:id="@+id/proj00"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="144dp" android:layout_y="164dp" 
+		android:src="@drawable/proj00">
+	</ImageView>
+	<ImageView android:id="@+id/proj01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="153dp" android:layout_y="166dp" 
+		android:src="@drawable/proj01">
+	</ImageView>
+	<ImageView android:id="@+id/proj02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="159dp" android:layout_y="174dp" 
+		android:src="@drawable/proj02">
+	</ImageView>
+	<ImageView android:id="@+id/proj03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="169dp" android:layout_y="179dp" 
+		android:src="@drawable/proj03">
+	</ImageView>
+	<ImageView android:id="@+id/proj04"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="177dp" android:layout_y="184dp" 
+		android:src="@drawable/proj04">
+	</ImageView>
+	
+	<!-- Trajectory 1 -->
+	<ImageView android:id="@+id/proj10"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="145dp" android:layout_y="128dp" 
+		android:src="@drawable/proj10">
+	</ImageView>
+	<ImageView android:id="@+id/proj11"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="153dp" android:layout_y="132dp" 
+		android:src="@drawable/proj11">
+	</ImageView>
+	<ImageView android:id="@+id/proj12"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="160dp" android:layout_y="139dp" 
+		android:src="@drawable/proj12">
+	</ImageView>
+	<ImageView android:id="@+id/proj13"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="168dp" android:layout_y="143dp" 
+		android:src="@drawable/proj13">
+	</ImageView>
+	<ImageView android:id="@+id/proj14"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="175dp" android:layout_y="150dp" 
+		android:src="@drawable/proj14">
+	</ImageView>
+	
+	<!-- Trajectory 2 -->
+	<ImageView android:id="@+id/proj20"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="326dp" android:layout_y="128dp" 
+		android:src="@drawable/proj20">
+	</ImageView>
+	<ImageView android:id="@+id/proj21"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="319dp" android:layout_y="132dp" 
+		android:src="@drawable/proj21">
+	</ImageView>
+	<ImageView android:id="@+id/proj22"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="310dp" android:layout_y="138dp" 
+		android:src="@drawable/proj22">
+	</ImageView>
+	<ImageView android:id="@+id/proj23"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="302dp" android:layout_y="145dp" 
+		android:src="@drawable/proj23">
+	</ImageView>
+	<ImageView android:id="@+id/proj24"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="296dp" android:layout_y="150dp" 
+		android:src="@drawable/proj24">
+	</ImageView>
+		
+	<!-- Trajectory 3 -->
+	<ImageView android:id="@+id/proj30"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="325dp" android:layout_y="165dp" 
+		android:src="@drawable/proj30">
+	</ImageView>
+	<ImageView android:id="@+id/proj31"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="318dp" android:layout_y="169dp" 
+		android:src="@drawable/proj31">
+	</ImageView>
+	<ImageView android:id="@+id/proj32"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="309dp" android:layout_y="174dp" 
+		android:src="@drawable/proj32">
+	</ImageView>
+	<ImageView android:id="@+id/proj33"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="301dp" android:layout_y="181dp" 
+		android:src="@drawable/proj33">
+	</ImageView>
+	<ImageView android:id="@+id/proj34"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="293dp" android:layout_y="184dp" 
+		android:src="@drawable/proj34">
+	</ImageView>		
+	
+	<!-- points -->
+	<ImageView android:id="@+id/points0"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="294dp" android:layout_y="92dp" 
+		android:src="@drawable/digit0">
+	</ImageView>		
+	<ImageView android:id="@+id/points1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="279dp" android:layout_y="92dp" 
+		android:src="@drawable/digit1">
+	</ImageView>		
+	<ImageView android:id="@+id/points2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="264dp" android:layout_y="92dp" 
+		android:src="@drawable/digit2">
+	</ImageView>		
+	<ImageView android:id="@+id/points3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="249dp" android:layout_y="92dp" 
+		android:src="@drawable/digit3">
+	</ImageView>		
+	
+	<!-- penalties -->
+	<ImageView android:id="@+id/penalty1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="280dp" android:layout_y="122dp" 
+		android:src="@drawable/penalty1">
+	</ImageView>	
+	<ImageView android:id="@+id/penalty2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="263dp" android:layout_y="122dp" 
+		android:src="@drawable/penalty2">
+	</ImageView>
+	<ImageView android:id="@+id/penalty3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="247dp" android:layout_y="122dp" 
+		android:src="@drawable/penalty3">
+	</ImageView>
+	
+	<!-- game labels -->
+	<ImageView android:id="@+id/lblGame1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="139dp" android:layout_y="224dp" 
+		android:src="@drawable/lbl_game1">
+	</ImageView>
+	<ImageView android:id="@+id/lblGame2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="313dp" android:layout_y="224dp" 
+		android:src="@drawable/lbl_game2">
+	</ImageView>	
+	
+	<!-- crash views -->
+	<!-- left -->
+	<ImageView android:id="@+id/lcrash0"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="170dp" android:layout_y="212dp" 
+		android:src="@drawable/lcrash0">
+	</ImageView>
+	<ImageView android:id="@+id/lcrash1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="165dp" android:layout_y="192dp" 
+		android:src="@drawable/lcrash1">
+	</ImageView>
+	<ImageView android:id="@+id/lcrash2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="159dp" android:layout_y="205dp" 
+		android:src="@drawable/lcrash2">
+	</ImageView>
+			<ImageView android:id="@+id/lcrash3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="148dp" android:layout_y="205dp" 
+		android:src="@drawable/lcrash3">
+	</ImageView>
+	<ImageView android:id="@+id/lcrash4"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="135dp" android:layout_y="205dp" 
+		android:src="@drawable/lcrash4">
+	</ImageView>	
+	
+	<!-- right -->
+	<ImageView android:id="@+id/rcrash0"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="273dp" android:layout_y="215dp" 
+		android:src="@drawable/rcrash0">
+	</ImageView>
+			<ImageView android:id="@+id/rcrash1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="297dp" android:layout_y="194dp" 
+		android:src="@drawable/rcrash1">
+	</ImageView>
+	<ImageView android:id="@+id/rcrash2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="313dp" android:layout_y="207dp" 
+		android:src="@drawable/rcrash2">
+	</ImageView>
+			<ImageView android:id="@+id/rcrash3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="323dp" android:layout_y="207dp" 
+		android:src="@drawable/rcrash3">
+	</ImageView>
+	<ImageView android:id="@+id/rcrash4"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_x="336dp" android:layout_y="208dp" 
+		android:src="@drawable/rcrash4">
+	</ImageView>	
+	
+	<!-- ads -->
+	<!-- --> 
+	<com.qwapi.adclient.android.view.QWAdView
+    	android:id="@+id/QWAd"
+    	android:layout_width="300dp" 
+    	android:layout_height="wrap_content" 
+    	android:layout_x="90dp" android:layout_y="0dp"
+    	qwad:siteId="anEggs-g6jdmcgw"
+    	qwad:publisherId="fb936e4c62ed40fd8514f9737fa5a980"
+    	qwad:mediaType="banner"
+          qwad:placement="top"
+          qwad:adInterval="30"
+          qwad:animation="slide"
+          qwad:adEventListenerClass="i4napps.theeggs.MainActivity"
+          
+ 	/>
+ 	<!-- qwad:adEventListenerClass="MainActivity" -->
+ 	 <!-- qwad:testMode="true"  -->
+ 	<!--           qwad:displayMode="autoRotate" -->	
+ 	<!-- qwad:renderAdOnCreate="true" -->
+</AbsoluteLayout>
+
+</RelativeLayout>

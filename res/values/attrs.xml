@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+     <declare-styleable name="QWAdView">
+        <attr name="placement" format="string" />
+        <attr name="mediaType" format="string" />
+        <attr name="displayMode" format="string" />
+        <attr name="adInterval" format="string" />
+        <attr name="animation" format="string" />
+        <attr name="siteId" format="string" />
+        <attr name="publisherId" format="string" />
+        <attr name="defaultAdImage" format="string" />
+        <attr name="defaultAdClickThru" format="string" />
+        <attr name="section" format="string" />
+        <attr name="adEventListenerClass" format="string" />
+        <attr name="testMode" format="string" />
+        <attr name="renderAdOnCreate" format="string" />
+        <attr name="requestMode" format="string" />
+        <attr name="bgColor" format="string" />
+        <attr name="textColor" format="string" />
+    </declare-styleable>
+</resources>

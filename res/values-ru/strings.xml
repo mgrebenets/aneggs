@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="app_name">anEggs</string>
+	<string name="about">Об Игре</string>
+	<string name="OK">OK</string>
+
+	<string name="game_I">Игра 1</string>
+	<string name="game_II">Игра 2</string>
+	<string name="high_score">Очки</string>
+	<string name="by">от</string>
+	<string name="i4napps">i4nApps</string>
+	<string name="unlock_title">Разлочить Фичи</string>
+	<string name="unlock_msg">Кликни рекламу всего лишь один раз чтобы разлочить паузу, игру 2 и другие фичи.</string>
+</resources>

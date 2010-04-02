@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionName="1.6" android:versionCode="6" package="i4napps.theeggs">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:icon="@drawable/icon"
+			android:launchMode="standard" android:screenOrientation="landscape"
+			android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".MainActivity">
+			<intent-filter>
+				<action android:name='android.intent.action.MAIN'></action>
+				<category android:name='android.intent.category.LAUNCHER'></category>
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+
+
+
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+
+
+</manifest> 
