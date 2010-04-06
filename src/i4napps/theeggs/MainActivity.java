@@ -777,7 +777,7 @@ public class MainActivity extends Activity implements AdEventsListener {
 			if (mGameThread.state != STATE_READY) return;
 
 			// check if game mode 2 is unlocked
-			if (mode == GAME_MODE_II && !mUnlocked) {
+			if (mAddDisplayed && mode == GAME_MODE_II && !mUnlocked) {
 				showDialog(DIALOG_UNLOCK_ID);
 				return;
 			}
@@ -800,7 +800,7 @@ public class MainActivity extends Activity implements AdEventsListener {
 		public boolean onTouch(View v, MotionEvent event) {
 
 			if (event.getAction() == MotionEvent.ACTION_DOWN) {
-				if (!mUnlocked) {
+				if (mAddDisplayed && !mUnlocked) {
 					showDialog(DIALOG_UNLOCK_ID);
 					return false;
 				}
@@ -982,16 +982,21 @@ public class MainActivity extends Activity implements AdEventsListener {
 
 	public void onAdRequestFailed(Context arg0, AdRequestParams arg1,
 			Status arg2) {
+		Log.d("ad", "Ad Request Failed");
 		// nothing	
 	}
 
 	public void onAdRequestSuccessful(Context arg0, AdRequestParams arg1,
 			Ad arg2) {
+		Log.d("ad", "Ad Request Successful");
 		// nothing
 	}
 
+	private boolean mAddDisplayed = false;
 	public void onDisplayAd(Context arg0, Ad arg1) {
 		// nothing
+		Log.d("ad", "Ad Displayed");
+		((MainActivity)arg0).mAddDisplayed = true;
 	}
 
 	public void onAdClick(Context arg0, Ad arg1) {
