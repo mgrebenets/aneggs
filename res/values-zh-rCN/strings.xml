@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="app_name">anEggs</string>
+	<string name="about">关于</string>
+	<string name="OK">确定</string>
+
+	<string name="game_I">游戏 I</string>
+	<string name="game_II">游戏 II</string>
+	<string name="high_score">高分榜</string>
+	<string name="by">开发：</string>
+	<string name="i4napps">i4nApps</string>
+	<string name="unlock_title">功能解锁</string>
+	<string name="unlock_msg">点击添加(仅一次)就可以一劳永逸的解开本游戏以及其他游戏的功能锁了。</string>
+</resources>
