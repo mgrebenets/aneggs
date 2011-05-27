@@ -1,0 +1,20 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+.picasa.ini
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+# windows noise
+Thumbs.db
+thumbs.db
+
+# android java noise
+bin/*
+gen/*
